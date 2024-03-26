@@ -30,7 +30,7 @@ After creating my account, I am given my own unique API access code. The code yo
 
 ![3](https://github.com/nicknava1/Threatmapping/blob/main/Threatmapping/2.png)
 
-The full script is viewable [HERE](https://github.com/nicknava1/Threatmapping/blob/main/Log_Collector.ps1). When I run this script it will create a custome log file called "failed_rdp.log". Inside, it will document identifying geographic data about every failed login attempt on this device. This includes: Source IP address, State, Country, Latitude and Longitude. Let's run it now.
+The full script is viewable [HERE](https://github.com/nicknava1/Threatmapping/blob/main/Log_Collector.ps1). When I run this script it will create a custom log file called "failed_rdp.log". Inside, it will document identifying geographic data about every failed login attempt on this device. This includes: Source IP address, State, Country, Latitude and Longitude. Let's run it now.
 
 ![4](https://github.com/nicknava1/Threatmapping/blob/main/Threatmapping/3.png)
 
@@ -54,11 +54,11 @@ With log data from my VM being collected into Azure, it is time to bring it all 
 
 ![8](https://github.com/nicknava1/Threatmapping/blob/main/Threatmapping/7.png)
 
-Finally, I'll specify that I want it to visualize this information as a map. Make sure to designate the map categories by (state) if you want to see the state names where the events orginated from.
+Finally, I'll specify that I want it to visualize this information as a map.
 
 ![9](https://github.com/nicknava1/Threatmapping/blob/main/Threatmapping/8.png)
 
-Now our Threat Map is complete! We can see that most of the attacks are coming from Delhi and India. This visual data can provide important insides to stakeholders for create security and risk management decisions.
+Now our Threat Map is complete! We can see that most of the attacks are coming from Delhi and Florida. This visual data can provide important insides to stakeholders for create security and risk management decisions.
 
 <h2>Conclusion</h2>
 
@@ -68,6 +68,6 @@ The process began with setting up a mini SOC and honeypot to attract and capture
 
 With the collected data, we imported it into our Log Analytics Workspace (LAW) in Azure, enabling us to centrally manage and analyze the information. We then utilized Microsoft Sentinel to create a SIEM query to extract specific details from our custom logs and visualize them on a map.
 
-The resulting threat map provided a clear visualization of attack origins, highlighting areas of concern such as Delhi and India in our case. This visual representation equips stakeholders with valuable insights for making informed decisions regarding security and risk management strategies.
+The resulting threat map provided a clear visualization of attack origins, highlighting areas of concern such as Delhi and Florida in our case. This visual representation equips stakeholders with valuable insights for making informed decisions regarding security and risk management strategies.
 
 Overall, this project demonstrates the effectiveness of utilizing advanced tools and techniques to enhance cybersecurity posture and proactively mitigate potential threats. Through continuous monitoring and analysis, we can better safeguard our systems and data against evolving security risks.
