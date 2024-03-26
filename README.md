@@ -1,4 +1,4 @@
-<h1>Threatmapping using Microsoft Sentinel
+<h1>Visualizing Threats using Microsoft Sentinel
 
 <h2>Project Description</h2>
 
